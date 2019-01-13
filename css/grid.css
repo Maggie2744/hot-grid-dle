@@ -259,6 +259,19 @@
   align-self: center;
 }
 
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.xs-1 {
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
 @media only screen and (min-width: 25em) {
 
   .unit-s-hidden,
@@ -604,9 +617,13 @@
     align-self: center;
   }
 
+  .m-2 {
+    width: 50%;
+  }
+
 }
 
-@media only screen and (min-width: 3820em) {
+@media only screen and (min-width: 60em) {
 
   .unit-l-hidden,
   .l-0 {
@@ -810,6 +827,15 @@
     -ms-align-self: center;
     -webkit-align-self: center;
     align-self: center;
+  }
+
+  .hidden {
+    display: block;
+    width: 33.333%;
+  }
+
+  .l-3 {
+    width: 33.333%;
   }
 
 }
