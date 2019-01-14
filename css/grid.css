@@ -1,6 +1,6 @@
 /*
   Gridifier || Code released under the UNLICENSE
-  https://gridifier.web-dev.tools/#xs,4,0,0,0;s,4,25,0,0;m,4,38,1,1;l,4,3820,1,1
+  https://gridifier.web-dev.tools/#xs,4,0,0,0;s,4,25,0,0;m,4,38,1,1;l,4,60,1,1
 */
 
 .grid {
@@ -268,7 +268,7 @@
   width: 100%;
 }
 
-.unit-hidden {
+.hidden {
   display: none;
 }
 
@@ -829,12 +829,12 @@
     align-self: center;
   }
 
-  .unit-hidden {
-    display: block;
+  .l-3 {
     width: 33.333%;
   }
 
-  .l-3 {
+  .hidden {
+    display: block;
     width: 33.333%;
   }
 
