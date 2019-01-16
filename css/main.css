@@ -26,11 +26,19 @@ body {
   width: 100%;
 }
 
+.unit {
+  position: relative;
+}
+
 .content {
   padding: 1rem;
   max-width: 15em;
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 @media only screen and (min-width: 25em) {
