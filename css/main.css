@@ -26,6 +26,13 @@ body {
   width: 100%;
 }
 
+.content {
+  padding: 1rem;
+  max-width: 15em;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
 @media only screen and (min-width: 25em) {
 }
 
