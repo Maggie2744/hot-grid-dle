@@ -26,23 +26,6 @@ body {
   width: 100%;
 }
 
-img {
-  position: absolute;
-}
-
-.burger-1
-
-.burger-2
-
-.burger-3
-
-figcaption {
-  position: relative;
-  max-width: 15em;
-  margin: 1rem;
-  padding: .5rem;
-}
-
 @media only screen and (min-width: 25em) {
 }
 
